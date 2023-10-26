@@ -39,7 +39,7 @@ jobs:
       if: ${{failure()}}
       run: |
         echo "There are errors in your code. Kindly correct them before build"
-        exit 1
+        Exit 1
         
     - name: Test with pytest
       run: |
@@ -49,4 +49,4 @@ jobs:
       if: ${{ failure() }}
       run: |
         echo "Some test cases have failed. Kindly check your code for any errors."
-        exit 1
+        Exit 1
