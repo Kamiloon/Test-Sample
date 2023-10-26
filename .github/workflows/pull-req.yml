@@ -45,5 +45,5 @@ jobs:
       #uses: peter-evans/close-pull@v3.0.1
       run: |
         echo "Commit fails to satisfy Pull Request Criteria"
-        exit 1
+        Exit 1
             
