@@ -6,7 +6,7 @@ class FrequencyCalculator:
     
     def char_frequency(self, given_string) -> dict:
         frequency_dict = {}
-        for i in given_string
+        for i in given_string:
             if i not in frequency_dict:
                 frequency_dict[i] = given_string.count(i)
         return frequency_dict
