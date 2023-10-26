@@ -51,6 +51,6 @@ jobs:
       if: ${{ failure() }}
       run: |
         echo "Commit fails to meet Code Merge Criteria. Kindly check your code for errors"
-        exit 1
+        Exit 1
       
    
